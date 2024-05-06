@@ -3,7 +3,8 @@
 /**
  * Module dependencies.
  */
-var Config = require('../config/server.json')
+var Config = require('../config/server.json');
+var colors = require('colors');
 var app = require('../app');
 var debug = require('debug')('structure');
 var http = require('http');
@@ -23,7 +24,7 @@ var server = http.createServer(app);
  * Listen on provided port, on all network interfaces.
  */
 
-server.listen(port);
+server.listen(port,Config.listen_host);
 server.on('error', onError);
 server.on('listening', onListening);
 

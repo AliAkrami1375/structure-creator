@@ -12,7 +12,7 @@ require('./config/db/connection');
 //////Config Base Project
 var app = express();
 if(ServerConfig.product==false) app.use(logger('dev'));
-console.log("Started Project");
+console.log(`Started Project On ${ServerConfig.port}`.green);
 
 ///Ejs Config
 app.set('views', path.join(__dirname, 'views'));

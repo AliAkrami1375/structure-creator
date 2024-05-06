@@ -4,6 +4,6 @@ const mongoose = require('mongoose');
 mongoose
   .connect(DBConfig.URI)
   .then(() => {
-    console.log("Database connected!")
+    console.log("Database connected!".green)
   })
-  .catch(err => console.log("MongoDB Error For Connected",err));
+  .catch(err => console.log("MongoDB Error For Connected : ".red,err.toString().red));
