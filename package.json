@@ -1,6 +1,6 @@
 {
   "name": "structure-creator",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "structure project mvc creator (express project - mongodb - redis)",
   "main": "bin/structure-cli.js",
   "preferGlobal": true,
