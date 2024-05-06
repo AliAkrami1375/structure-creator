@@ -133,6 +133,8 @@ function createInsideBin(){
     mkdir(Directory,"bin");
     if(args.socketio){
         write(path.join(Directory,"bin","www"),fs.readFileSync(path.join(__dirname,"../folders/bin/withsocketio/www")))
+        mkdir(Directory,"socket");
+        write(path.join(Directory,"socket","index.js"),fs.readFileSync(path.join(__dirname,"../folders/socket/index.js")))
     }else{
         write(path.join(Directory,"bin","www"),fs.readFileSync(path.join(__dirname,"../folders/bin/withoutsocketio/www")))
     }
