@@ -22,6 +22,9 @@ Capabilities : 
 
 `npm i -g structure-creator`
 
+wizard
+`structure -m`
+
 create project
 
 `structure -p .`
