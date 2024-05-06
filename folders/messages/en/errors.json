@@ -1,0 +1,26 @@
+{
+    "enterTrueParameter":{
+        "code":-100,
+        "msg":"Please Enter True Parameter"
+    },
+    "enterApiKey":{
+        "code":-101,
+        "msg":"Please Enter Api Key For Auth"
+    },
+    "usernamenotfound":{
+        "code":-102,
+        "msg":"Username Not Found Please Register First"
+    },
+    "passwordnotmatch":{
+        "code":-103,
+        "msg":"your password not match"
+    },
+    "usernameIsExist":{
+        "code":-104,
+        "msg":"Username Is Exist"
+    },
+    "errorCreateUser":{
+        "code":-105,
+        "msg":"User Not Created Please Contact Support"
+    }
+}

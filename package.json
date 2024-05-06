@@ -1,0 +1,36 @@
+{
+  "name": "structure-creator",
+  "version": "1.0.11",
+  "description": "structure project mvc creator (express project - mongodb - redis)",
+  "main": "bin/structure-cli.js",
+  "preferGlobal": true,
+  "bin": {
+    "structure": "./bin/structure-cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ELCID (aliakrami13751@gmail.com)",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "minimist": "^1.2.8",
+    "mkdirp": "^3.0.1"
+  },
+  "keywords": [
+    "express",
+    "framework",
+    "sinatra",
+    "web",
+    "rest",
+    "restful",
+    "router",
+    "app",
+    "api",
+    "mongoose",
+    "jwt",
+    "jsonwebtoken",
+    "elcid",
+    "mvc"
+  ]
+}

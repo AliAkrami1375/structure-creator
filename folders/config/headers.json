@@ -1,0 +1,6 @@
+{
+    "error":400,
+    "inputparameter":401,
+    "unauth":402,
+    "success":200
+}

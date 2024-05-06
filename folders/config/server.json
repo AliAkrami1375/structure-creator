@@ -1,0 +1,10 @@
+{
+    "port":3000,
+    "listen_host":"0.0.0.0",
+    "url":"http://127.0.0.1",
+    "base_url":"/",
+    "default_lang":"en",
+    "lang_support":["en"],
+    "token_name_header":"api_key",
+    "product":false
+}
