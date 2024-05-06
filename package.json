@@ -7,6 +7,10 @@
   "bin": {
     "structure": "./bin/structure-cli.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AliAkrami1375/structure-creator.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
